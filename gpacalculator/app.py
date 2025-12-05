@@ -12,17 +12,16 @@ def main_menu():
         print("4. Grade Reports")
         print("5. Exit")
 
-        choice = input("Select an option: ")
-
-        if choice == "1":
+        choice = int(input("Select an option: "))
+        if choice == 1:
             student_menu()
-        elif choice == "2":
+        elif choice == 2:
             course_menu()
-        elif choice == "3":
+        elif choice == 3:
             results_menu()
-        elif choice == "4":
+        elif choice == 4:
             grade_report_menu()
-        elif choice == "5":
+        elif choice == 5:
             print("Exiting program...")
             break
         else:
