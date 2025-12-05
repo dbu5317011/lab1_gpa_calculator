@@ -33,7 +33,6 @@ def calculate_gpa(student_id):
 def grade_report_menu():
     print("\n--- GRADE REPORT MENU ---")
     student_id = input("Enter Student ID: ")
-
     total_credit, total_gp, gpa = calculate_gpa(student_id)
     print("\n--- GRADE REPORT ---")
     print(f"Total Credits: {total_credit}")
