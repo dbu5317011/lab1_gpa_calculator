@@ -35,7 +35,6 @@ def grade_report_menu():
     student_id = input("Enter Student ID: ")
 
     total_credit, total_gp, gpa = calculate_gpa(student_id)
-
     print("\n--- GRADE REPORT ---")
     print(f"Total Credits: {total_credit}")
     print(f"Total Grade Points: {total_gp}")
